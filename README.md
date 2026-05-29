@@ -12,7 +12,7 @@ Features
 - **Chat Grid**: Main conversational interface with styled message bubbles
 
 
- how it works
+ 2. how it works
 1. **Launch**: App plays `greeting.wav` and shows `home_grid`
 2. **Onboarding**: User clicks "Proceed" → enters username → app checks `user_names.txt`
 3. **Chat**: User types question → app sanitizes input → splits into words → matches against `reply` ArrayList
@@ -23,7 +23,7 @@ Features
 
 
 
- Key Classes Explained
+3. Key Classes Explained
 
 | Class | Purpose |
 | --- | --- |
@@ -32,7 +32,7 @@ Features
 | `user_name` | Manages username persistence and welcome messages |
 | `voice_greeting` | Plays `greeting.wav` from `/bin/Debug/` on startup |
 
-## Example Interactions
+4. Example Interactions
 
 **User**: `I am interested in phishing and firewalls`  
 **ChatBot**: `great, i added phishing, firewalls to your interests and phishing is a scam where attackers pretend to be trusted sources to steal information.`
@@ -45,7 +45,7 @@ Features
 
 
 
-References
+5. References
 
 1. Microsoft. (2026). *Windows Presentation Foundation (WPF) Documentation*. Retrieved from https://learn.microsoft.com/en-us/dotnet/desktop/wpf/
 2. Microsoft. (2026). *C# Programming Guide*. Retrieved from https://learn.microsoft.com/en-us/dotnet/csharp/
@@ -54,7 +54,7 @@ References
 5. OWASP Foundation. (2023). *OWASP Top Ten Web Application Security Risks*. https://owasp.org/www-project-top-ten/
 6. Microsoft. (2026). *SoundPlayer Class (System.Media)*. Retrieved from https://learn.microsoft.com/en-us/dotnet/api/system.media.soundplayer
 
-Author
+6. Author
 Part 2 AI Chatbot Project  
 student name: Conny Dliwayo
 Course: Software Development
@@ -62,5 +62,5 @@ RoseBank internation
 C
 Year: 2026
 
-License
+7. License
 This project is for educational purposes. All cybersecurity advice follows standard best practices from NIST and OWASP.
