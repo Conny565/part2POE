@@ -94,6 +94,7 @@ Plays `greeting.wav` on startup using `SoundPlayer` for an audio welcome.
 
 ## **Author**
 Part 2 AI Chatbot Project  
+student name: Conny Dliwayo
 Course: Software Development
 RoseBank internation 
 C
