@@ -1,18 +1,18 @@
-# part2POE
+part2POE
 
 
 Project Overview
 A WPF desktop chatbot application designed to educate users on cybersecurity topics, detect sentiment, and remember user preferences. Built in C# with .NET Framework.
 
-## **Features**
+Features
 
-### **1. Multi-Stage UI Flow**
+**1. Multi-Stage UI Flow**
 - **Home Grid**: Welcome screen with logo and “Proceed” button
 - **Username Grid**: Captures and remembers returning users via `user_names.txt`
 - **Chat Grid**: Main conversational interface with styled message bubbles
 
 
-# how it works#
+ how it works
 1. **Launch**: App plays `greeting.wav` and shows `home_grid`
 2. **Onboarding**: User clicks "Proceed" → enters username → app checks `user_names.txt`
 3. **Chat**: User types question → app sanitizes input → splits into words → matches against `reply` ArrayList
@@ -22,8 +22,8 @@ A WPF desktop chatbot application designed to educate users on cybersecurity top
 
 
 
-#
-## **Key Classes Explained**
+
+ Key Classes Explained
 
 | Class | Purpose |
 | --- | --- |
@@ -32,7 +32,7 @@ A WPF desktop chatbot application designed to educate users on cybersecurity top
 | `user_name` | Manages username persistence and welcome messages |
 | `voice_greeting` | Plays `greeting.wav` from `/bin/Debug/` on startup |
 
-## **Example Interactions**
+## Example Interactions
 
 **User**: `I am interested in phishing and firewalls`  
 **ChatBot**: `great, i added phishing, firewalls to your interests and phishing is a scam where attackers pretend to be trusted sources to steal information.`
@@ -45,7 +45,7 @@ A WPF desktop chatbot application designed to educate users on cybersecurity top
 
 
 
-## **References**
+References
 
 1. Microsoft. (2026). *Windows Presentation Foundation (WPF) Documentation*. Retrieved from https://learn.microsoft.com/en-us/dotnet/desktop/wpf/
 2. Microsoft. (2026). *C# Programming Guide*. Retrieved from https://learn.microsoft.com/en-us/dotnet/csharp/
@@ -54,7 +54,7 @@ A WPF desktop chatbot application designed to educate users on cybersecurity top
 5. OWASP Foundation. (2023). *OWASP Top Ten Web Application Security Risks*. https://owasp.org/www-project-top-ten/
 6. Microsoft. (2026). *SoundPlayer Class (System.Media)*. Retrieved from https://learn.microsoft.com/en-us/dotnet/api/system.media.soundplayer
 
-## **Author**
+Author
 Part 2 AI Chatbot Project  
 student name: Conny Dliwayo
 Course: Software Development
@@ -62,5 +62,5 @@ RoseBank internation
 C
 Year: 2026
 
-## **License**
+License
 This project is for educational purposes. All cybersecurity advice follows standard best practices from NIST and OWASP.
